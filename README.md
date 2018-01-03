@@ -7,7 +7,7 @@
 這時候就可以說，「欸，好巧喔，又見面了，我們真有緣份呢」"
 
 ## 成員
-- [IishaWu](https://github.com/IishaWu)
+- [IishaWu <3](https://github.com/IishaWu)
 - [s104321072](https://github.com/s104321072)
 - [qianchuen](https://github.com/qianchuen) 
 
