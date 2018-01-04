@@ -10,7 +10,7 @@
 - [IishaWu <3](https://github.com/IishaWu)
 - [s104321072](https://github.com/s104321072)
 - [qianchuen](https://github.com/qianchuen)
-- [SihYingChen]
+- [SihYingChen](https://github.com/SihYingChen)
 
 ## 使用裝置
 - Raspberry Pi 3
