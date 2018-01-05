@@ -11,6 +11,8 @@
 - [s104321072](https://github.com/s104321072)
 - [qianchuen](https://github.com/qianchuen)
 - [SihYingChen](https://github.com/SihYingChen)
+- [JackKuo-tw](https://github.com/JackKuo-tw)
+- [Dorothy0405](https://github.com/Dorothy0405)
 
 ## 使用裝置
 - Raspberry Pi 3
