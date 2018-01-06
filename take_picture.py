@@ -1,5 +1,6 @@
 import cv2
 import os
+import time
 # Captures a single image from the camera and returns it in PIL format 
 def get_image(camera):
  # read is the easiest way to get a full image out of a VideoCapture object.
@@ -9,7 +10,7 @@ def analysis():
  print('analying')
  os.system('alpr ./test_image.png')
 def main():
-
+ i=0
  # Camera 0 is the integrated web cam on my netbook
  camera_port = 0
  
@@ -24,16 +25,29 @@ def main():
  # to adjust light levels, if necessary
 # for i in range(ramp_frames):
 #  temp = get_image(camera)
- print("Taking image...")
- # Take the actual image we want to keep
- camera_capture = get_image(camera)
- file = "test_image.png"
- # A nice feature of the imwrite method is that it will automatically choose the
- # correct format based on the file extension you provide. Convenient!
- cv2.imwrite(file, camera_capture)
+ while(True):
+  camera.read()
+  if (i%10==0):
+   print("Taking image...")
+   # Take the actual image we want to keep
+   camera_capture = get_image(camera)
+   #cv2.imshow('frame',camera_capture)
+   file = "test_image.png"
+   # Display the resulting frame
+   #cv2.imshow('frame',camera_capture)
+
+   # A nice feature of the imwrite method is that it will automatically choose the
+   # correct format based on the file extension you provide. Convenient!
+   cv2.imwrite(file, camera_capture)
   
- # You'll want to release the camera, otherwise you won't be able to create a new
- # capture object until your script exits
+   # You'll want to release the camera, otherwise you won't be able to create a new
+   # capture object until your script exits 
+   analysis()  
+   if cv2.waitKey(1) & 0xFF == ord('q'):
+     break
+
+   time.sleep(1)
+  i+=1
  del(camera)
- analysis()
+ cv2.destroyAllWindows()
 main()
