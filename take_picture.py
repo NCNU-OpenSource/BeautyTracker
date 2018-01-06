@@ -26,8 +26,10 @@ def main():
 # for i in range(ramp_frames):
 #  temp = get_image(camera)
  while(True):
+
+  #因為中間會有延遲,但每次只會讀一張frame,這樣中間延遲的frame就會讓我們的程式不夠real time,所以要把它讀完
   camera.read()
-  if (i%10==0):
+  if (i%10==0): #延遲用
    print("Taking image...")
    # Take the actual image we want to keep
    camera_capture = get_image(camera)
@@ -45,9 +47,9 @@ def main():
    analysis()  
    if cv2.waitKey(1) & 0xFF == ord('q'):
      break
-
+   #因為不知道怎麼結束程式,只好設一個sleep,不然程式關不掉
    time.sleep(1)
-  i+=1
+  i+=1 #延遲用
  del(camera)
  cv2.destroyAllWindows()
 main()
