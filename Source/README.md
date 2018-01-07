@@ -12,8 +12,10 @@ Check out a live online demo here: http://www.openalpr.com/demo-image.html
 
 ### OpnnCV-3.1.0安裝
 
-- 目前 EasyPR 要求 3.2 版本以上的 OpenCV
+- 目前 本程式要求 3.2 版本以上的 OpenCV
 
 這個[安裝教學](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)照做基本上就沒問題了
 
-####
+#### 執行
+- $ python analysis.py
+- 因為程式還不是很完整,結束請用crtl+c
