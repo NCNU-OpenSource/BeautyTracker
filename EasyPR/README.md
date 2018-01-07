@@ -1,6 +1,6 @@
 # EasyPR 教學
 
-[EasyPR](https://github.com/liuruoze/EasyPR) 是一個開源的中文車牌識別系統，其目標是成為一個簡單、高效、準確的非限制場景(unconstrained situation)下的車牌識別庫。
+[EasyPR](https://github.com/liuruoze/EasyPR) 是一個開源的中文車牌識別系統，其目標是成為一個簡單、高效、準確的非限制場景(unconstrained situation)下的車牌識別庫。 **目前仍不能辨識台灣車牌**
 
 ## 安裝
 
