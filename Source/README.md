@@ -1,8 +1,8 @@
-# openalpr 教學
-
-[openalpr](https://github.com/openalpr/openalpr) is an open source Automatic License Plate Recognition library written in C++ with bindings in C#, Java, Node.js, Go, and Python. The library analyzes images and video streams to identify license plates. The output is the text representation of any license plate characters.
-
+# 使用 analysis.py 教學
+- analysis.py 使用到以下兩個open source
+- [openalpr](https://github.com/openalpr/openalpr) is an open source Automatic License Plate Recognition library written in C++ with bindings in C#, Java, Node.js, Go, and Python. The library analyzes images and video streams to identify license plates. The output is the text representation of any license plate characters.
 Check out a live online demo here: http://www.openalpr.com/demo-image.html
+- opencv 
 
 ## openalpr 安裝（Ubuntu or Raspberry Pi環境）
 
