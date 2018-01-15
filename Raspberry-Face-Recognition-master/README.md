@@ -8,5 +8,7 @@
 4. 執行 training.py 來對 dataset 裡的照片進行訓練
 5. 執行 face_recognition.py 進行臉部辨識，會標出使用者名稱於畫面中
 
+---
+README_.md 是原作者的 README
 
 open source by [trieutuanvnu](https://github.com/trieutuanvnu/Raspberry-Face-Recognition)
