@@ -11,7 +11,7 @@ recognizer = cv2.face.createLBPHFaceRecognizer()
 recognizer.load('trainer/trainer.yml')
 
 # Load prebuilt model for Frontal Face
-cascadePath = "haarcascade_frontalface_default.xml"
+cascadePath = "/home/pi/opencv-3.2.0/data/haarcascades/haarcascade_frontalface_alt.xml"
 
 # Create classifier from prebuilt model
 faceCascade = cv2.CascadeClassifier(cascadePath);
@@ -40,22 +40,28 @@ while True:
         cv2.rectangle(im, (x-20,y-20), (x+w+20,y+h+20), (0,255,0), 4)
 
         # Recognize the face belongs to which ID
-        Id = recognizer.predict(gray[y:y+h,x:x+w])
+        Id, www = recognizer.predict(gray[y:y+h,x:x+w])
 
         # Check the ID if exist 
         if(Id == 1):
-            Id = "Jacky"
-        #If not exist, then it is Unknown
+            Id = "Chelsea"
         elif(Id == 2):
-            Id = "Jenifer"
+            Id = "BaiBai"
+        elif(Id == 3):
+            Id = "Nicole"
+        elif(Id == 4):
+            Id = "Peter"
+        elif(Id == 5):
+            Id = "Jack"
+        elif(Id == 6):
+            Id = "Dorothy"
         else:
-            print(Id)
-			Id = "Unknow"
+	    Id = "Unknow"
 
         # Put text describe who is in the picture
-        cv2.rectangle(im, (x-22,y-90), (x+w+22, y-22), (0,255,0), -1)
-        cv2.putText(im, str(Id), (x,y-40), font, 2, (255,255,255), 3)
-
+        cv2.rectangle(im, (x-22,y-60), (x+w+22, y-22), (0,166,166), 2)
+        cv2.putText(im, str(Id), (x,y-30), font, 1, (255,255,255), 2)
+        print Id
     # Display the video frame with the bounded rectangle
     cv2.imshow('im',im) 
 
