@@ -8,7 +8,8 @@ def get_image(camera):
     return im
 def analysis():
     print('analying')
-    os.system('alpr ./test_image.png')
+    output = os.popen('alpr ./test_image.png')
+    print(output.read())
 def main():
     i=0
     # Camera 0 is the integrated web cam on my netbook
