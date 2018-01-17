@@ -7,11 +7,11 @@
 這時候就可以說，「欸，好巧喔，又見面了，我們真有緣份呢」"
 
 ## 成員
-- [IishaWu <3](https://github.com/IishaWu)
-- [s104321072](https://github.com/s104321072)
-- [qianchuen](https://github.com/qianchuen)
-- [SihYingChen](https://github.com/SihYingChen)
-- [JackKuo-tw](https://github.com/JackKuo-tw)
+- [IishaWu <3](https://github.com/IishaWu)  ---車牌辨識,Web呈現,Vase
+- [s104321072](https://github.com/s104321072) ---人臉辨識,整合
+- [qianchuen](https://github.com/qianchuen) ---人臉辨識
+- [SihYingChen](https://github.com/SihYingChen) Web呈現
+- [JackKuo-tw](https://github.com/JackKuo-tw) ---題目發想,車牌辨識,整合,Beaty
 - [Dorothy0405](https://github.com/Dorothy0405)
 
 ## 使用裝置
@@ -25,18 +25,21 @@
         <td>材料名稱</td>
         <td>數量</td>
         <td>來源</td>
-      </tr>
+        <td>價錢</td>
+     </tr>
     </thead>
     <tbody>
       <tr>
         <td>樹莓派</td>
         <td>兩個</td>
-        <td>Moli</td>
+        <td>MOLi</td>
+        <td>0</td>
       </tr>
       <tr>
         <td>pi camera</td>
         <td>一個</td>
         <td>Nicole</td>
+        <td> 1000</td>
       </tr>
     </tbody>
 </table>
