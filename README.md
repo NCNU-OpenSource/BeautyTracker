@@ -33,7 +33,7 @@
         <td>樹莓派</td>
         <td>兩個</td>
         <td>MOLi</td>
-        <td>0</td>
+        <td>1400</td>
       </tr>
       <tr>
         <td>pi camera</td>
@@ -48,3 +48,7 @@
 - 利用 camera 進行即時的車牌辨識，有辨識到車牌之後會拍照並儲存照片。
 - 再進入臉部辨識的部分，偵測到人臉與資料庫進行比對，如果比對成功再拍一張照片，
 - 把對應的資料存到資料庫，最後再回到車牌辨識的部分。
+
+## 程式參考來源
+- [openalpr](https://github.com/openalpr/openalpr)
+- [Raspberry-Face-Recognition](https://github.com/trieutuanvnu/Raspberry-Face-Recognition)
