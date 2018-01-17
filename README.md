@@ -18,5 +18,24 @@
 - Raspberry Pi 3
 - Pi Camera Module v2
 ## 實作所需材料
-|:---:|:---:|:---:|
-|名稱|數量|價錢|
+<table>
+  <thead>
+      <tr>
+        <td>材料名稱</td>
+        <td>數量</td>
+        <td>來源</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>樹莓派</td>
+        <td>一個</td>
+        <td>Moli</td>
+      </tr>
+      <tr>
+        <td>pi camera</td>
+        <td>一個</td>
+        <td>Nicole</td>
+      </tr>
+    </tbody>
+</table>
