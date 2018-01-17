@@ -33,7 +33,7 @@
         <td>樹莓派</td>
         <td>兩個</td>
         <td>MOLi</td>
-        <td>1400</td>
+        <td>1400</td>
       </tr>
       <tr>
         <td>pi camera</td>
