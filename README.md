@@ -51,17 +51,17 @@
 
 ## How to
 - openalpr 安裝 ----> 官方有提供[安裝教學](https://github.com/openalpr/openalpr/wiki/Compilation-instructions-(Ubuntu-Linux))
-- OpenCV-3.1.0 以上安裝 ----> Ubuntu[安裝教學](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
-                             Raspberry個[安裝教學](https://paper.dropbox.com/doc/Raspi-install-opencv-IHaVgymS9tRgfhnCaCSGv)
+- OpenCV-3.1.0 以上安裝 ----> Ubuntu[安裝教學](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)  Raspberry個[安裝教學](https://paper.dropbox.com/doc/Raspi-install-opencv-IHaVgymS9tRgfhnCaCSGv)
 - 複製檔案 ----> 把Raspberry-Face-Recognition-master/ 資料夾下的    face_datasets.py   training.py  兩得檔案複製到要進行實作的目錄下
-- 新增目錄 ----> 在要實作的目錄下新增兩個目錄，,train/ 和 dataset/
+- 新增目錄 ----> 在要實作的目錄下新增兩個目錄，train/ 和 dataset/
 - 獲取樣本 ----> 執行face_datasets.py
-- training ----> 到R執行 training.py
+- training ----> 執行 training.py
 - 進行車牌辨識以及人臉辨識 -----> 執行LSA.py
-- LSA.py會先辨識車牌，辨識到車牌以後才開始作人臉偵測，偵測到以後會辨識出昰哪位並儲存成image。
+- LSA.py 會先辨識車牌，辨識到車牌以後才開始作人臉偵測，偵測到以後會辨識出昰哪位並儲存成image。
+- LSA_rsync.py 只是多了把車牌和人臉照片還有辨識出的結果傳到其它web上的功能
 ## 備註
 - Souce/ 資料夾下的昰車牌辨識的部分，可單獨執行
-- Raspberry-Face-Recognition-master/資料夾下的昰只有人臉偵測以及辨識的部分，可單獨執行
+- Raspberry-Face-Recognition-master/ 資料夾下的昰只有人臉偵測以及人臉辨識的部分，可單獨執行
 ## 程式參考來源
 - [openalpr](https://github.com/openalpr/openalpr)
 - [Raspberry-Face-Recognition](https://github.com/trieutuanvnu/Raspberry-Face-Recognition)
