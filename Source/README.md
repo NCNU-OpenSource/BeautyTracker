@@ -15,7 +15,7 @@ Check out a live online demo here: http://www.openalpr.com/demo-image.html
 - 目前 本程式要求 3.1 版本以上的 OpenCV
 - Ubuntu install opencv
 這個[安裝教學](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)照做基本上就沒問題了
--Raspberry Pi install opencv
+- Raspberry Pi install opencv
 這個[安裝教學](https://paper.dropbox.com/doc/Raspi-install-opencv-IHaVgymS9tRgfhnCaCSGv)照做基本上就沒問題了
 
 #### 執行
