@@ -62,6 +62,7 @@
 ## 備註
 - Souce/ 資料夾下的昰車牌辨識的部分，可單獨執行
 - Raspberry-Face-Recognition-master/ 資料夾下的昰只有人臉偵測以及人臉辨識的部分，可單獨執行
+- EasyPR 測試後發現只支援中國車牌辨識，因此目前採用 Openalpr
 ## 程式參考來源
 - [openalpr](https://github.com/openalpr/openalpr)
 - [Raspberry-Face-Recognition](https://github.com/trieutuanvnu/Raspberry-Face-Recognition)
